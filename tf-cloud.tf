@@ -1,4 +1,6 @@
-
+provider "aws" {
+	region	=	"us-east-1"
+}
 
 resource "aws_instance" "s206199-terraform-prod05" {
 	ami	=	"ami-06b8f0fe534eceb95"
