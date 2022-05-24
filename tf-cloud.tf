@@ -1,8 +1,4 @@
-provider "aws" {
-	region	=	"us-east-1"
-	access_key	=	"AKIAZGYWKI2LNVHLUJ5E"
-	secret_key	=	"<<>>"
-}
+
 
 resource "aws_instance" "s206199-terraform-prod05" {
 	ami	=	"ami-06b8f0fe534eceb95"
